@@ -1,10 +1,51 @@
 body{
     background-color: aquamarine;
 }
+header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: lime;
+    margin-bottom: 30px;
+}
 ul{
     list-style-type: none;
+    padding: 0;
+
 }
 #output-text{
     width: 100px;
     height: 70px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 512px;
+    border: 6px solid;
+    border-color: darkmagenta;
+    margin: auto;
+    background-color: snow;
+    border-radius: 30px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50px;
+}
+#taskInput {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 153px;
+    height: 21px;
+    border-radius: 6px;
+    border-color: lime;
+}
+button {
+    border-radius: 6px;
+    height: 23px;
+    border: 2px solid;
+    background-color: rgb(63, 245, 63);
+    border-color: rgba(36, 119, 214, 0.479);
+}
+span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+
 }
