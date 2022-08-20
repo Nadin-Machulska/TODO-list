@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+}
+ul{
+    list-style-type: none;
+}
+#output-text{
+    width: 100px;
+    height: 70px;
+}
